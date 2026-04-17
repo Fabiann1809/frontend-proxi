@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd ai-proxy-frontend && npm install && npm run build",
+  "outputDirectory": "ai-proxy-frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
