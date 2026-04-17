@@ -1,0 +1,16 @@
+---
+description: Keep all source in English (identifiers, comments, UI copy, file names)
+globs: "**/*.{ts,tsx,js,css,html}"
+alwaysApply: true
+---
+
+# English-only codebase
+
+Use **English** for:
+
+- File and folder names (except established vendor paths).
+- Identifiers: variables, functions, types, interfaces, enums, and class members.
+- User-visible strings in the UI and API error messages surfaced to users.
+- Code comments and documentation inside the repo.
+
+Do not introduce Spanish (or other non-English) naming or copy in application source unless it is a required literal from an external contract or legal text.
